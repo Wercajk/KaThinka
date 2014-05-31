@@ -1,4 +1,4 @@
-+![Kathinka](/Kathinka-Logo.png)
+![Kathinka](/KaThinka-Logo.png)
 ========
 
 Node.js and Koa API Rest Compensator Framework
