@@ -14,5 +14,5 @@ TODO:
 
 
 
-Credits:
+Font Credits:
 AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/fonts/aw-conqueror-family/)
