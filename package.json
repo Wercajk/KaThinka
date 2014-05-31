@@ -1,0 +1,28 @@
+{
+  "name": "KaThinka",
+  "version": "0.0.1",
+  "description": "Node.js and Koa.js API Rest Compensator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elmariofredo/KaThinka.git"
+  },
+  "keywords": [
+    "api",
+    "koa",
+    "rest"
+  ],
+  "author": "mario@vejlupek.cz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elmariofredo/KaThinka/issues"
+  },
+  "homepage": "https://github.com/elmariofredo/KaThinka",
+  "dependencies": {
+    "koa-resource-router": "^0.3.3",
+    "mongoose": "^3.8.12"
+  }
+}
