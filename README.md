@@ -1,4 +1,4 @@
-+![Kathinka](/Kathinka-Logo.png)
+[Kathinka](/Kathinka-Logo.png)
 ========
 
 Node.js and Koa API Rest Compensator Framework
@@ -7,9 +7,10 @@ This should simplify such simple task as creating API using Koa principes
 
 TODO:
 
-    - [x] Create repository
-    - [x] Write TODO
-    - [x] Check all tasks in TODO list :wink:
+    - [x] Include Koa
+    - [ ] Add simple way to define your models
+    - [ ] Cover all with tests
+    - [ ] Make code bullet proof for newcomers
 
 
 
