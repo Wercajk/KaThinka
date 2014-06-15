@@ -1,4 +1,4 @@
-[Kathinka](/Kathinka-Logo.png)
+![Kathinka](/KaThinka-Logo.png)
 ========
 
 Node.js and Koa API Rest Compensator Framework
@@ -15,5 +15,6 @@ TODO:
 
 
 
-Credits:
+
+Font Credits:
 AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/fonts/aw-conqueror-family/)
