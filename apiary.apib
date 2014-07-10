@@ -17,7 +17,7 @@ Users related resources of the **Users API**
           "id": 2, "name": "Luigi"
         }]
 
-### Create a Note [POST]
+### Create a User [POST]
 + Request (application/json)
 
         { "name": "Princess Peach" }
@@ -26,18 +26,18 @@ Users related resources of the **Users API**
 
         { "id": 3, "name": "Princess Peach" }
 
-## Note [/notes/{id}]
-A single Note object with all its details
+## User [/users/{id}]
+A single User object with all its details
 
 + Parameters
-    + id (required, number, `1`) ... Numeric `id` of the Note to perform action with. Has example value.
+    + id (required, number, `1`) ... Numeric `id` of the User to perform action with. Has example value.
 
-### Retrieve a Note [GET]
+### Retrieve a User [GET]
 + Response 200 (application/json)
 
     + Body
 
             { "id": 2, "title": "Luigi" }
 
-### Remove a Note [DELETE]
+### Remove a User [DELETE]
 + Response 204
