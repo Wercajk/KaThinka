@@ -1,14 +1,14 @@
-![Kathinka](/KaThinka-Logo.png)
+![Kathinka](http://www.vejlupek.cz/KaThinka-logo-small.svg)
 ========
 
 Node.js and Koa API REST Framework
 
 This should simplify such simple task as creating API using Koa
 
-  [![NPM version][npm-image]][npm-url] 
+  [![NPM version][npm-image]][npm-url]
   [![build status][travis-image]][travis-url]
-  [![Code Climate][codeclimate-image]][codeclimate-url]
   [![Test coverage][coveralls-image]][coveralls-url]
+  [![Code Climate][codeclimate-image]][codeclimate-url]
 
 ## Instalation
 
