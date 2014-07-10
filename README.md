@@ -1,9 +1,9 @@
 ![Kathinka](/KaThinka-Logo.png)
 ========
 
-Node.js and Koa API Rest Compensator Framework
+Node.js and Koa API Rest Framework
 
-This should simplify such simple task as creating API using Koa principes
+This should simplify such simple task as creating API using Koa
 
 TODO:
 
