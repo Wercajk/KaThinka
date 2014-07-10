@@ -1,7 +1,7 @@
 ![Kathinka](/KaThinka-Logo.png)
 ========
 
-Node.js and Koa API Rest Framework
+Node.js and Koa API REST Framework
 
 This should simplify such simple task as creating API using Koa
 
