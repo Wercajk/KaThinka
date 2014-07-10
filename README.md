@@ -7,11 +7,11 @@ This should simplify such simple task as creating API using Koa principes
 
 TODO:
 
-    - [x] Include Koa
-    - [x] Add simple way to define your models
-    - [*] Cover all with tests
-    - [ ] Build resource routes
-    - [ ] Make code bullet proof for newcomers
+- [x] Include Koa
+- [x] Add simple way to define your models
+- [ ] :soon: Cover all with tests
+- [ ] Build resource routes
+- [ ] Make code bullet proof for newcomers
 
 
 
