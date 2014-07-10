@@ -5,6 +5,7 @@ Node.js and Koa API REST Framework
 
 This should simplify such simple task as creating API using Koa
 
+  [![NPM version][npm-image]][npm-url] 
   [![build status][travis-image]][travis-url]
   [![Code Climate][codeclimate-image]][codeclimate-url]
   [![Test coverage][coveralls-image]][coveralls-url]
@@ -45,7 +46,8 @@ to index of your application. More detailed info is comming soon!
 ### Font Credits:
 AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/fonts/aw-conqueror-family/)
 
-
+[npm-image]: https://img.shields.io/npm/v/kathinka.svg?style=flat
+[npm-url]: https://npmjs.org/package/kathinka
 [travis-image]: https://img.shields.io/travis/Wercajk/KaThinka.svg?style=flat
 [travis-url]: https://travis-ci.org/Wercajk/KaThinka
 [coveralls-image]: https://img.shields.io/coveralls/Wercajk/KaThinka.svg?style=flat

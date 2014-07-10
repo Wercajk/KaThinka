@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elmariofredo/KaThinka.git"
+    "url": "https://github.com/Wercajk/KaThinka.git"
   },
   "keywords": [
     "api",
@@ -19,9 +19,9 @@
   "author": "mario@vejlupek.cz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elmariofredo/KaThinka/issues"
+    "url": "https://github.com/Wercajk/KaThinka/issues"
   },
-  "homepage": "https://github.com/elmariofredo/KaThinka",
+  "homepage": "https://github.com/Wercajk/KaThinka",
   "dependencies": {
     "debug": "*",
     "koa": "^0.6.1",
