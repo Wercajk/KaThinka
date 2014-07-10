@@ -5,6 +5,10 @@ Node.js and Koa API Rest Framework
 
 This should simplify such simple task as creating API using Koa
 
+
+[![Code Climate](https://codeclimate.com/github/Wercajk/KaThinka.png)](https://codeclimate.com/github/Wercajk/KaThinka)
+
+
 TODO:
 
 - [x] Include Koa
