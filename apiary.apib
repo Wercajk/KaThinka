@@ -1,0 +1,43 @@
+FORMAT: 1A
+HOST: http://localhost
+
+# KaThinka Test
+Is testing api for **KaThinka** project
+
+# Group Users
+Users related resources of the **Users API**
+
+## Users Collection [/users]
+### List all Users [GET]
++ Response 200 (application/json)
+
+        [{
+          "id": 1, "name": "Mario"
+        }, {
+          "id": 2, "name": "Luigi"
+        }]
+
+### Create a Note [POST]
++ Request (application/json)
+
+        { "name": "Princess Peach" }
+
++ Response 201 (application/json)
+
+        { "id": 3, "name": "Princess Peach" }
+
+## Note [/notes/{id}]
+A single Note object with all its details
+
++ Parameters
+    + id (required, number, `1`) ... Numeric `id` of the Note to perform action with. Has example value.
+
+### Retrieve a Note [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            { "id": 2, "title": "Luigi" }
+
+### Remove a Note [DELETE]
++ Response 204
