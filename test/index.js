@@ -1,0 +1,2 @@
+// Start Application
+require('../.')();
