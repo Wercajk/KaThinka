@@ -7,7 +7,6 @@ This should simplify such simple task as creating API using Koa
 
   [![NPM version][npm-image]][npm-url]
   [![build status][travis-image]][travis-url]
-  [![Test coverage][coveralls-image]][coveralls-url]
   [![Code Climate][codeclimate-image]][codeclimate-url]
   [![Dependencies][npm-dependencies-image]][npm-dependencies-url]
 
@@ -62,8 +61,6 @@ AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/
 [npm-url]: https://npmjs.org/package/kathinka
 [travis-image]: https://api.travis-ci.org/Wercajk/KaThinka.svg
 [travis-url]: https://travis-ci.org/Wercajk/KaThinka
-[coveralls-image]: https://coveralls.io/repos/Wercajk/KaThinka/badge.png
-[coveralls-url]: https://coveralls.io/r/Wercajk/KaThinka?branch=master
 [codeclimate-image]: https://codeclimate.com/github/Wercajk/KaThinka.png
 [codeclimate-url]: https://codeclimate.com/github/Wercajk/KaThinka
 [npm-dependencies-image]: https://david-dm.org/Wercajk/KaThinka.png
