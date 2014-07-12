@@ -46,11 +46,11 @@ to index of your application. More detailed info is comming soon!
 ### Font Credits:
 AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/fonts/aw-conqueror-family/)
 
-[npm-image]: https://img.shields.io/npm/v/kathinka.svg?style=flat
+[npm-image]: https://badge.fury.io/js/kathinka.svg
 [npm-url]: https://npmjs.org/package/kathinka
-[travis-image]: https://img.shields.io/travis/Wercajk/KaThinka.svg?style=flat
+[travis-image]: https://api.travis-ci.org/Wercajk/KaThinka.svg
 [travis-url]: https://travis-ci.org/Wercajk/KaThinka
-[coveralls-image]: https://img.shields.io/coveralls/Wercajk/KaThinka.svg?style=flat
+[coveralls-image]: https://coveralls.io/repos/Wercajk/KaThinka/badge.png
 [coveralls-url]: https://coveralls.io/r/Wercajk/KaThinka?branch=master
 [codeclimate-image]: https://codeclimate.com/github/Wercajk/KaThinka.png
 [codeclimate-url]: https://codeclimate.com/github/Wercajk/KaThinka
