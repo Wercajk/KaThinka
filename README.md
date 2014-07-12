@@ -41,6 +41,8 @@ to index.js file in your new application. More detailed info is comming soon!
 
 ## Test:
 
+API covered with tests so far http://docs.kathinka.apiary.io
+
 Run
 
 ```bash
