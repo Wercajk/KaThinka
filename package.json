@@ -1,6 +1,6 @@
 {
   "name": "kathinka",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js and Koa.js REST API Framework",
   "main": "lib/application.js",
   "scripts": {

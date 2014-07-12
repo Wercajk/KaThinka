@@ -16,8 +16,8 @@ This should simplify such simple task as creating API using Koa
 ```bash
 $ npm init
 $ curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | bash
-$ nvm install
-$ nvm use
+$ nvm install 0.11
+$ nvm use 0.11
 $ npm install kathinka --save
 ```
 
