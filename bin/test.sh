@@ -8,9 +8,10 @@ fi
 source ~/.nvm/nvm.sh
 nvm use
 
-# Starting API server
+# Move to test directory
 cd ./test
 
+# Starting API server
 NODE_ENV=test node --harmony index.js &
 
 PID=$!
@@ -27,7 +28,8 @@ else
   npm -g install dredd &> /dev/null
 fi
 
-dredd --level verbose apiary.apib http://localhost:3777/
+# Start dredd
+dredd --level verbose ../apiary.apib http://localhost:3777/
 RESULT=$?
 kill -9 $PID
 exit $RESULT
