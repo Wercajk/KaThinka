@@ -27,7 +27,7 @@ else
   npm -g install dredd
 fi
 
-dredd apiary.apib http://localhost:3777/
+dredd --level verbose apiary.apib http://localhost:3777/
 RESULT=$?
 kill -9 $PID
 exit $RESULT

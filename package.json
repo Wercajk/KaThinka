@@ -27,6 +27,7 @@
     "koa": "^0.6.1",
     "koa-compose": "^2.3.0",
     "koa-resource-router": "^0.3.3",
+    "koa-route": "^1.1.4",
     "mongoose": "^3.8.12"
   },
   "devDependencies": {
