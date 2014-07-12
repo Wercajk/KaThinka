@@ -24,7 +24,7 @@ nvm use 0.10
 if hash dredd 2>/dev/null; then
   echo "Dredd already installed"
 else
-  npm -g install dredd
+  npm -g install dredd &> /dev/null
 fi
 
 dredd --level verbose apiary.apib http://localhost:3777/

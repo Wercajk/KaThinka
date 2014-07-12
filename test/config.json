@@ -1,10 +1,11 @@
 {
+  "version": "1",
   "server": {
     "port": 3777
   },
   "db": {
     "mongo": {
-      "url": "127.0.0.1:27017"
+      "url": "mongodb://localhost/test-api"
     }
   }
 }
