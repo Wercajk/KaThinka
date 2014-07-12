@@ -4,4 +4,3 @@ node_js:
 script: "bin/test.sh"
 services:
   - mongodb
-after_script: "npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls"
