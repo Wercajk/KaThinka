@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Wercajk/KaThinka",
   "dependencies": {
     "debug": "*",
-    "koa": "^0.6.1",
+    "koa": "0.8.1",
     "koa-compose": "^2.3.0",
     "koa-resource-router": "^0.3.3",
     "koa-route": "^1.1.4",
