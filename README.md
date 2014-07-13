@@ -10,32 +10,30 @@ This should simplify such simple task as creating API using Koa
   [![Code Climate][codeclimate-image]][codeclimate-url]
   [![Dependencies][npm-dependencies-image]][npm-dependencies-url]
 
-## Instalation
+## Setup app
 
 ```bash
+$ mkdir newAwesomeApp
+$ cd newAwesomeApp
 $ npm init
 $ curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | bash
 $ nvm install 0.11
 $ nvm use 0.11
 $ npm install kathinka --save
+$ echo "require('kathinka')();" > index.js
+$ mkdir -p app/resources/
+$ node --harmony index.js
 ```
 
-## Usage
+[Slush](https://slushjs.github.io) generator is comming soon. Checkout test directory which is fully functional example app.
 
-Add following code
-
-```javascript
-// Start Application
-require('kathinka')();
-```
-
-to index.js file in your new application. More detailed info is comming soon!
 
 ## TODO:
 
 - [x] Include Koa
 - [x] Add simple way to define your models
-- [ ] :soon: Cover all with tests
+- [x] Cover api with tests
+- [ ] :soon:   [Slush](https://slushjs.github.io) generator
 - [ ] Build resource routes
 - [ ] Make code bullet proof for newcomers
 
