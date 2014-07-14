@@ -19,23 +19,26 @@ Users related resources of the **Users API**
 
 
 ## Users Collection [/users]
-### List all Users [GET]
-+ Response 200 (application/json)
-
-        [{
-          "id": 1, "name": "Mario"
-        }, {
-          "id": 2, "name": "Luigi"
-        }]
 
 ### Create a User [POST]
 + Request (application/json)
 
-        { "name": "Princess Peach" }
+        {
+            "name": "Mario"
+        }
 
 + Response 201 (application/json)
 
-        { "id": 3, "name": "Princess Peach" }
+        {
+            "name": "Mario"
+        }
+
+### List all Users [GET]
++ Response 200 (application/json)
+
+        [{
+          "name": "Mario"
+        }]
 
 ## User [/users/{id}]
 A single User object with all its details
@@ -48,8 +51,7 @@ A single User object with all its details
 
     + Body
 
-            { "id": 2, "title": "Luigi" }
+            { "title": "Mario" }
 
 ### Remove a User [DELETE]
 + Response 204
-
