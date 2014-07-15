@@ -8,37 +8,80 @@ Is testing api for **KaThinka** project
 ### Check if api is connected to db and running [GET]
 + Response 200 (application/json; charset=utf-8)
 
-        {
-          "status": "up",
-          "version": "1"
-        }
+    + Schema
+
+            {
+                "$schema": "http://json-schema.org/draft-03/schema#",
+                "type": "object",
+                "required": true,
+                "properties": {
+                    "status": {
+                        "type": "string",
+                        "required": true
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true
+                    }
+                }
+            }
+
 
 # Group Users
 Users related resources of the **Users API**
 
-
-
 ## Users Collection [/users]
 
 ### Create a User [POST]
-+ Request (application/json)
++ Request (application/json; charset=utf-8)
 
         {
-            "name": "Mario"
+            "label": "Mario"
         }
 
-+ Response 201 (application/json)
++ Response 201 (application/json; charset=utf-8)
 
-        {
-            "name": "Mario"
-        }
+    + Schema
+
+            {
+                "$schema": "http://json-schema.org/draft-03/schema#",
+                "type": "object",
+                "required": true,
+                "properties": {
+                    "_id": {
+                        "type": "string",
+                        "required": true
+                    },
+                    "label": {
+                        "type": "string",
+                        "required": true
+                    }
+                }
+            }
 
 ### List all Users [GET]
-+ Response 200 (application/json)
++ Response 200 (application/json; charset=utf-8)
 
-        [{
-          "name": "Mario"
-        }]
+    + Schema
+
+            {
+                "$schema": "http://json-schema.org/draft-03/schema#",
+                "type": "array",
+                "required": true,
+                "items": [{
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "required": true
+                      },
+                      "_id": {
+                        "type": "string",
+                        "required": true
+                      }
+                    }
+                }]
+            }
 
 ## User [/users/{id}]
 A single User object with all its details
@@ -47,11 +90,25 @@ A single User object with all its details
     + id (required, number, `1`) ... Numeric `id` of the User to perform action with. Has example value.
 
 ### Retrieve a User [GET]
-+ Response 200 (application/json)
++ Response 200 (application/json; charset=utf-8)
 
-    + Body
+    + Schema
 
-            { "title": "Mario" }
+            {
+                "$schema": "http://json-schema.org/draft-03/schema#",
+                "type": "object",
+                "required": true,
+                "properties": {
+                    "_id": {
+                        "type": "string",
+                        "required": true
+                    },
+                    "label": {
+                        "type": "string",
+                        "required": true
+                    }
+                }
+            }
 
 ### Remove a User [DELETE]
 + Response 204
