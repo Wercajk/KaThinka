@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Wercajk/KaThinka",
   "dependencies": {
+    "co-body": "0.0.2",
     "debug": "*",
     "koa": "0.8.1",
     "koa-compose": "^2.3.0",
