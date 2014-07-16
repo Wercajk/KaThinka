@@ -11,6 +11,8 @@ NODE_ENV=test node --harmony index.js &
 
 PID=$!
 
+sleep 1
+
 nvm use 0.10
 
 # Start dredd

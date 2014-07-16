@@ -33,9 +33,8 @@ $ node --harmony index.js
 - [x] Include Koa
 - [x] Add simple way to define your models
 - [x] Cover api with tests
-- [ ] :soon:   [Slush](https://slushjs.github.io) generator
-- [ ] Build resource routes
-- [ ] Make code bullet proof for newcomers
+- [ ] :soon: [Slush](https://slushjs.github.io) generator
+- [ ] Allow user to change generated API
 
 ## Test:
 
