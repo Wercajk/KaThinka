@@ -8,6 +8,8 @@ fi
 source ~/.nvm/nvm.sh
 nvm use
 
+# Wipe testing database
+mongo test-api --eval 'db.dropDatabase();'
 
 # Setup dredd unde 0.10, because
 # protagonist is not running under 0.11!
