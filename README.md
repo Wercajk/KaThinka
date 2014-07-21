@@ -50,8 +50,13 @@ $ bin/test.js
 
 [Mario Vejlupek](http://www.vejlupek.cz)
 
+## Changelog
 
+See [releases](https://github.com/Wercajk/KaThinka/releases).
 
+## License
+
+MIT
 
 ### Font Credits:
 AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/fonts/aw-conqueror-family/)

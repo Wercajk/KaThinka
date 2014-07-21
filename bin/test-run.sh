@@ -7,7 +7,7 @@ nvm use
 cd ./test
 
 # Starting API server
-NODE_ENV=test node --harmony index.js &
+NODE_ENV=test  node --harmony index.js --server:port 3777 &
 
 PID=$!
 
