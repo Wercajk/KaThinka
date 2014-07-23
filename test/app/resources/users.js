@@ -1,7 +1,7 @@
 module.exports = {
   schema: {
-    label: "String",
-    url: "String"
+    label: String,
+    url: String
   },
   schema_options:  {
     onInit: function( model ) {

@@ -4,6 +4,7 @@
   "description": "Node.js and Koa.js REST API Framework",
   "main": "lib/application.js",
   "scripts": {
+    "start": "cd test && node --harmony index.js --server:port 3777",
     "test": "bin/test.sh"
   },
   "repository": {
