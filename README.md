@@ -12,29 +12,46 @@ This should simplify such simple task as creating API using Koa
 
 ## Setup app
 
+Install Slush
+
+```bash
+$ npm -g install slush slush-kathinka
+```
+
+Bootstrap application
+
 ```bash
 $ mkdir newAwesomeApp
 $ cd newAwesomeApp
-$ npm init
-$ curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | bash
-$ nvm install 0.11
-$ nvm use 0.11
-$ npm install kathinka --save
-$ echo "require('kathinka')();" > index.js
-$ mkdir -p app/resources/
-$ node --harmony index.js
+$ slush kathinka
 ```
 
-[Slush](https://slushjs.github.io) generator is comming soon. Checkout test directory which is fully functional example app.
+Generate first resource
 
+```bash
+$ slush kathinka:resource
+```
+
+Start server
+
+```bash
+$ npm start
+```
+Run tests
+
+```bash
+$ npm test
+```
 
 ## TODO:
 
 - [x] Include Koa
 - [x] Add simple way to define your models
 - [x] Cover api with tests
-- [ ] :soon: [Slush](https://slushjs.github.io) generator
-- [ ] Allow user to change generated API
+- [x] [Slush](https://slushjs.github.io) generator [slush-kathinka](https://github.com/Wercajk/slush-kathinka)
+- [ ] :soon: Allow user to change generated API
+- [ ] Allow user to add own API actions
+- [ ] Add token authentication support
 
 ## Test:
 
