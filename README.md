@@ -12,11 +12,28 @@ This should simplify such simple task as creating API using Koa
 
 ## Setup app
 
-Install Slush
+Install Slush t
 
 ```bash
 $ npm -g install slush slush-kathinka
 ```
+
+Install nvm to install 0.11 nodejs version
+
+```bash
+$ curl https://raw.githubusercontent.com/creationix/nvm/v0.12.1/install.sh | bash
+```
+
+Install MongoDB as database backend
+
+OS X:
+
+```bash
+brew install mongodb
+ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+```
+
 
 Bootstrap application
 
