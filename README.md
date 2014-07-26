@@ -54,6 +54,13 @@ $ slush kathinka:resource
 $ npm start
 ```
 
+#### Check if app is up and running
+
+```bash
+$ curl http://localhost:54321/
+{"status":"ok","version":"1"}
+$
+```
 
 ## TODO:
 
