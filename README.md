@@ -59,7 +59,6 @@ $ npm start
 ```bash
 $ curl http://localhost:54321/
 {"status":"ok","version":"1"}
-$
 ```
 
 ## TODO:
