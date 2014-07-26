@@ -12,21 +12,20 @@ This should simplify such simple task as creating API using Koa
 
 ## Setup app
 
-Install Slush t
+#### Install Slush to bootstrap app
 
 ```bash
 $ npm -g install slush slush-kathinka
 ```
 
-Install nvm to install 0.11 nodejs version
+#### Install nvm to install 0.11 nodejs version
 
 ```bash
 $ curl https://raw.githubusercontent.com/creationix/nvm/v0.12.1/install.sh | bash
 ```
 
-Install MongoDB as database backend
+#### Install MongoDB as database backend on OS X using [Homebrew](http://brew.sh/)
 
-OS X:
 
 ```bash
 brew install mongodb
@@ -35,7 +34,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 ```
 
 
-Bootstrap application
+#### Bootstrap application
 
 ```bash
 $ mkdir newAwesomeApp
@@ -43,22 +42,18 @@ $ cd newAwesomeApp
 $ slush kathinka
 ```
 
-Generate first resource
+#### Generate first resource
 
 ```bash
 $ slush kathinka:resource
 ```
 
-Start server
+#### Start server
 
 ```bash
 $ npm start
 ```
-Run tests
 
-```bash
-$ npm test
-```
 
 ## TODO:
 
@@ -72,12 +67,12 @@ $ npm test
 
 ## Test:
 
-API covered with tests so far http://docs.kathinka.apiary.io
+API covered with tests so far: http://docs.kathinka.apiary.io
 
 Run
 
 ```bash
-$ bin/test.js
+$ npm test
 ```
 
 ## Author:
