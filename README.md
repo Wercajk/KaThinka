@@ -9,7 +9,6 @@ This should simplify such simple task as creating API using Koa
   [![build status][travis-image]][travis-url]
   [![Code Climate][codeclimate-image]][codeclimate-url]
   [![Dependencies][npm-dependencies-image]][npm-dependencies-url]
-  [![Inline docs][inch-ci-image]][inch-ci-url]
 
 ## Setup app
 
@@ -106,5 +105,3 @@ AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/
 [npm-dependencies-image]: https://david-dm.org/Wercajk/KaThinka.png
 [npm-dependencies-url]: https://david-dm.org/Wercajk/KaThinka
 
-[inch-ci-image]: http://inch-ci.org/github/Wercajk/KaThinka.svg?branch=master
-[inch-ci-url]: http://inch-ci.org/github/Wercajk/KaThinka
