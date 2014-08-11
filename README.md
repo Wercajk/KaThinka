@@ -1,4 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/Wercajk/KaThinka.png?label=ready&title=Ready)](https://waffle.io/Wercajk/KaThinka)
 ![Kathinka](http://www.vejlupek.cz/KaThinka-logo-small.svg)
 ========
 
@@ -10,6 +9,7 @@ This should simplify such simple task as creating API using Koa
   [![build status][travis-image]][travis-url]
   [![Code Climate][codeclimate-image]][codeclimate-url]
   [![Dependencies][npm-dependencies-image]][npm-dependencies-url]
+  [![Stories in Ready][waffle-image]][waffle-url]
 
 ## Setup app
 
@@ -105,4 +105,7 @@ AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/
 [codeclimate-url]: https://codeclimate.com/github/Wercajk/KaThinka
 [npm-dependencies-image]: https://david-dm.org/Wercajk/KaThinka.png
 [npm-dependencies-url]: https://david-dm.org/Wercajk/KaThinka
+[waffle-url]: https://waffle.io/Wercajk/KaThinka
+[waffle-image]: https://badge.waffle.io/Wercajk/KaThinka.png?label=ready&title=Ready
+
 
