@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Wercajk/KaThinka.png?label=ready&title=Ready)](https://waffle.io/Wercajk/KaThinka)
 ![Kathinka](http://www.vejlupek.cz/KaThinka-logo-small.svg)
 ========
 
