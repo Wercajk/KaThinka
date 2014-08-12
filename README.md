@@ -64,13 +64,7 @@ $ curl http://localhost:54321/
 
 ## TODO:
 
-- [x] Include Koa
-- [x] Add simple way to define your models
-- [x] Cover api with tests
-- [x] [Slush](https://slushjs.github.io) generator [slush-kathinka](https://github.com/Wercajk/slush-kathinka)
-- [ ] :soon: Allow user to change generated API
-- [ ] Allow user to add own API actions
-- [ ] Add token authentication support
+https://waffle.io/wercajk/kathinka
 
 ## Test:
 
