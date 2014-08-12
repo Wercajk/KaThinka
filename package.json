@@ -25,12 +25,12 @@
   "homepage": "https://github.com/Wercajk/KaThinka",
   "dependencies": {
     "co-body": "0.0.2",
-    "debug": "*",
-    "koa": "0.8.1",
+    "debug": "^1.0.4",
+    "koa": "^0.8.1",
     "koa-compose": "^2.3.0",
     "koa-resource-router": "^0.3.3",
     "koa-route": "^1.1.4",
-    "mongoose": "^3.8.12",
+    "mongoose": "^3.9.0",
     "nconf": "^0.6.9"
   },
   "devDependencies": {
