@@ -27,16 +27,16 @@ Is testing api for **KaThinka** project
             }
 
 
-# Group Users
-Users related resources of the **Users API**
+# Group Todos
+Todos related resources of the **Todos API**
 
-## Users Collection [/users]
+## Todos Collection [/todos]
 
-### Create a User [POST]
+### Create a Todo [POST]
 + Request (application/json; charset=utf-8)
 
         {
-            "label": "Mario"
+            "label": "bread"
         }
 
 + Response 201 (application/json; charset=utf-8)
@@ -59,7 +59,7 @@ Users related resources of the **Users API**
                 }
             }
 
-### List all Users [GET]
+### List all Todos [GET]
 + Response 200 (application/json; charset=utf-8)
 
     + Schema
@@ -83,14 +83,14 @@ Users related resources of the **Users API**
                 }]
             }
 
-## User [/users/{label}]
-A single User object with all its details
+## Todo [/todos/{label}]
+A single Todo object with all its details
 
 + Parameters
-    + label (required, string, `Mario`) ... user label `label` of the User to perform action with.
+    + label (required, string, `bread`) ... user label `label` of the Todo to perform action with.
 
 
-### Retrieve a User [GET]
+### Retrieve a Todo [GET]
 + Response 200 (application/json; charset=utf-8)
 
     + Schema
@@ -115,10 +115,10 @@ A single User object with all its details
 + Request (application/json; charset=utf-8)
 
         {
-          "label": "Mario_updated"
+          "label": "milk"
         }
 
 + Response 204
 
-### Remove a User [DELETE]
+### Remove a Todo [DELETE]
 + Response 204
