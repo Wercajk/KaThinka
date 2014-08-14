@@ -68,6 +68,14 @@ Todos related resources of the **Todos API**
                 }
             }
 
+
+    + Body
+
+            {
+                "_id": "53ecc8132e6e0d837bc5af70",
+                "label": "bread"
+            }
+
 ### List all Todos [GET]
 + Response 200 (application/json; charset=utf-8)
 
@@ -91,6 +99,14 @@ Todos related resources of the **Todos API**
                     }
                 }]
             }
+
+
+    + Body
+
+            [{
+                "_id": "53ecc8132e6e0d837bc5af70",
+                "label": "bread"
+            }]
 
 ## Todo [/todos/{label}]
 A single Todo object with all its details
@@ -118,6 +134,14 @@ A single Todo object with all its details
                         "required": true
                     }
                 }
+            }
+
+
+    + Body
+
+            {
+                "_id": "53ecc8132e6e0d837bc5af70",
+                "label": "bread"
             }
 
 ## Update a Key [PATCH]
