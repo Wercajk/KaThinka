@@ -45,7 +45,8 @@ Todos related resources of the **Todos API**
 + Request (application/json; charset=utf-8)
 
         {
-            "label": "bread"
+            "label": "bread",
+            "is_done": false
         }
 
 + Response 201 (application/json; charset=utf-8)
@@ -64,6 +65,10 @@ Todos related resources of the **Todos API**
                     "label": {
                         "type": "string",
                         "required": true
+                    },
+                    "is_done": {
+                        "type": "boolean",
+                        "required": true
                     }
                 }
             }
@@ -73,7 +78,8 @@ Todos related resources of the **Todos API**
 
             {
                 "_id": "53ecc8132e6e0d837bc5af70",
-                "label": "bread"
+                "label": "bread",
+                "is_done": false
             }
 
 ### List all Todos [GET]
@@ -88,12 +94,16 @@ Todos related resources of the **Todos API**
                 "items": [{
                     "type": "object",
                     "properties": {
+                      "_id": {
+                        "type": "string",
+                        "required": true
+                      },
                       "label": {
                         "type": "string",
                         "required": true
                       },
-                      "_id": {
-                        "type": "string",
+                      "is_done": {
+                        "type": "boolean",
                         "required": true
                       }
                     }
@@ -105,7 +115,8 @@ Todos related resources of the **Todos API**
 
             [{
                 "_id": "53ecc8132e6e0d837bc5af70",
-                "label": "bread"
+                "label": "bread",
+                "is_done": false
             }]
 
 ## Todo [/todos/{label}]
@@ -132,6 +143,10 @@ A single Todo object with all its details
                     "label": {
                         "type": "string",
                         "required": true
+                    },
+                    "is_done": {
+                        "type": "boolean",
+                        "required": true
                     }
                 }
             }
@@ -141,14 +156,16 @@ A single Todo object with all its details
 
             {
                 "_id": "53ecc8132e6e0d837bc5af70",
-                "label": "bread"
+                "label": "bread",
+                "is_done": false
             }
 
 ## Update a Key [PATCH]
 + Request (application/json; charset=utf-8)
 
         {
-          "label": "milk"
+          "label": "bread",
+          "is_done": true
         }
 
 + Response 204
