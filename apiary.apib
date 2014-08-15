@@ -7,6 +7,19 @@ Is testing api for **KaThinka** project
 # Group Root
 
 ## Retrieve Entry Point [/]
+
+### List REST options [OPTIONS]
++ Response 200 (application/json; charset=utf-8)
+
+    + Header
+
+            Accept: application/json
+            Allow: GET
+
+    + Body
+
+            {}
+
 ### Check if api is connected to db and running [GET]
 + Response 200 (application/json; charset=utf-8)
 
@@ -40,6 +53,18 @@ Is testing api for **KaThinka** project
 Todos related resources of the **Todos API**
 
 ## Todos Collection [/todos]
+
+### List collection options [OPTIONS]
++ Response 200 (application/json; charset=utf-8)
+
+    + Header
+
+            Accept: application/json
+            Allow: POST, GET
+
+    + Body
+
+            {}
 
 ### Create a Todo [POST]
 + Request (application/json; charset=utf-8)
@@ -125,6 +150,17 @@ A single Todo object with all its details
 + Parameters
     + label (required, string, `bread`) ... user label `label` of the Todo to perform action with.
 
+### List collection options [OPTIONS]
++ Response 200 (application/json; charset=utf-8)
+
+    + Header
+
+            Accept: application/json
+            Allow: GET, PATCH, PUT, DELETE
+
+    + Body
+
+            {}
 
 ### Retrieve the Todo [GET]
 + Response 200 (application/json; charset=utf-8)
