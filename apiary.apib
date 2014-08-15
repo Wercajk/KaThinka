@@ -126,7 +126,7 @@ A single Todo object with all its details
     + label (required, string, `bread`) ... user label `label` of the Todo to perform action with.
 
 
-### Retrieve a Todo [GET]
+### Retrieve the Todo [GET]
 + Response 200 (application/json; charset=utf-8)
 
     + Schema
@@ -160,7 +160,16 @@ A single Todo object with all its details
                 "is_done": false
             }
 
-## Update a Key [PATCH]
+## Update part of the Todo [PATCH]
++ Request (application/json; charset=utf-8)
+
+        {
+          "is_done": true
+        }
+
++ Response 204
+
+## Update part of the Todo [PUT]
 + Request (application/json; charset=utf-8)
 
         {
