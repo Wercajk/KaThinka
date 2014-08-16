@@ -6,4 +6,6 @@ echo "Test:Prepare:End"
 
 echo "Test:Run:Start"
 bin/test-run.sh
+result=$?
 echo "Test:Run:End"
+exit $result
