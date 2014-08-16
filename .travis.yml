@@ -1,8 +1,12 @@
 language: node_js
 node_js:
-  - "0.11"
+  - '0.11'
 script:
-  - "node_modules/.bin/jshint lib"
-  - "bin/test.sh"
+  - node_modules/.bin/jshint lib
+  - bin/test.sh
+after_success: npm run deploy-doc
 services:
   - mongodb
+env:
+  global:
+    secure: Fk186bbxQmuQFaWDwb0FM0NIAQ5itsRkNZHS6D+ihckAs0Mxuwv4ZABLUrl6qky9IwXBc0rt9rEnrNS7uJinoQu/gwtfF7tbxKLw8XkwJSi+zJOOH+flLxmCPMOBZUaShI62wwJTchDYETPknVTO6w7CVl20ODmpz4fxgSmgsU4=

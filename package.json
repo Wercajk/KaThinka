@@ -6,7 +6,9 @@
   "scripts": {
     "start": "cd test && node --harmony index.js --server:port 3777",
     "test": "bin/test.sh",
-    "lint": "node_modules/.bin/eslint lib"
+    "lint": "node_modules/.bin/eslint lib",
+    "doc": "node_modules/.bin/groc \"lib/**/*.js\"",
+    "deploy-doc": "./bin/deploy-ghpages.sh"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,7 @@
     "node": ">= 0.11.9"
   },
   "devDependencies": {
+    "groc": "^0.6.3",
     "jshint": "^2.5.3"
   }
 }
