@@ -7,7 +7,7 @@
     "start": "cd test && node --harmony index.js --server:port 3777",
     "test": "bin/test.sh",
     "lint": "node_modules/.bin/eslint lib",
-    "doc": "node_modules/.bin/groc \"lib/**/*.js\"",
+    "doc": "node_modules/.bin/groc \"lib/**/*.js\" README.md",
     "deploy-doc": "./bin/deploy-ghpages.sh"
   },
   "repository": {
