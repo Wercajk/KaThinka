@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/Wercajk/KaThinka/issues"
   },
-  "homepage": "https://github.com/Wercajk/KaThinka",
+  "homepage": "https://wercajk.github.io/KaThinka/",
   "dependencies": {
     "co-body": "1.0.0",
     "debug": "^1.0.4",
@@ -43,5 +43,8 @@
   "devDependencies": {
     "groc": "^0.6.3",
     "jshint": "^2.5.3"
+  },
+  "bugs": {
+    "url": "https://waffle.io/wercajk/kathinka"
   }
 }
