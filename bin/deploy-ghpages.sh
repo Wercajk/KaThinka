@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf doc || exit 0;
 npm run doc
-( cd out
+( cd doc
  git init
  git config user.name "Travis-CI"
  git config user.email "travis@nodemeatspace.com"
