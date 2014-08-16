@@ -7,7 +7,10 @@ install:
 script:
   - node_modules/.bin/jshint lib
   - bin/test.sh
-after_success: npm run deploy-doc
+after_success:
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - npm run deploy-doc
 services:
   - mongodb
 env:

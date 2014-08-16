@@ -7,5 +7,5 @@ npm run doc
  git config user.email "travis@nodemeatspace.com"
  git add .
  git commit -m "Deploy doc to Github Pages"
- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+ git push --force --quiet "https://github.com/Wercajk/KaThinka.git" master:gh-pages
 )
