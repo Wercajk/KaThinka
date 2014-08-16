@@ -6,5 +6,9 @@
     "mongo": {
       "url": "127.0.0.1:27017"
     }
+  },
+  "cors": {
+    "origin": "*",
+    "methods": "OPTIONS,GET,HEAD,PUT,POST,DELETE"
   }
 }
