@@ -1,4 +1,4 @@
-![Kathinka](http://www.vejlupek.cz/KaThinka-logo-small.svg)
+![Kathinka](https://s3.amazonaws.com/static-vejlupek-cz/kathinka/KaThinka-logo-small.svg)
 ========
 
 Node.js and Koa API REST Framework
@@ -101,5 +101,3 @@ AW Conqueror, © Jean François Porchez, [Typofonderie](http://typofonderie.com/
 [npm-dependencies-url]: https://david-dm.org/Wercajk/KaThinka
 [waffle-url]: https://waffle.io/Wercajk/KaThinka
 [waffle-image]: https://badge.waffle.io/Wercajk/KaThinka.png?label=ready&title=Ready
-
-
