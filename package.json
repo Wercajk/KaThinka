@@ -23,7 +23,7 @@
   "author": "mario@vejlupek.cz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Wercajk/KaThinka/issues"
+    "url": "https://waffle.io/wercajk/kathinka"
   },
   "homepage": "https://wercajk.github.io/KaThinka/",
   "dependencies": {
@@ -42,9 +42,7 @@
   },
   "devDependencies": {
     "groc": "^0.6.3",
+    "jscs": "^1.5.9",
     "jshint": "^2.5.3"
-  },
-  "bugs": {
-    "url": "https://waffle.io/wercajk/kathinka"
   }
 }
