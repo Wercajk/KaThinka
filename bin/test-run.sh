@@ -4,7 +4,7 @@ source ~/.nvm/nvm.sh
 nvm use
 
 # Move to test directory
-cd ./test
+cd ./example-app
 
 # Starting API server
 NODE_ENV=test  node --harmony index.js --server:port 3777 &

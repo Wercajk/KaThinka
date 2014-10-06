@@ -5,7 +5,7 @@
   "main": "lib/application.js",
   "scripts": {
     "start": "cd test && node --harmony index.js --server:port 3777",
-    "test": "bin/test.sh",
+    "test": "make test",
     "lint": "node_modules/.bin/eslint lib",
     "doc": "node_modules/.bin/groc \"lib/**/*.js\" README.md",
     "deploy-doc": "./bin/deploy-ghpages.sh"
