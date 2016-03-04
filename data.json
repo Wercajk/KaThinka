@@ -1,0 +1,261 @@
+{
+  "ngParty": {
+    "logo": {
+      "tiny":"assets/images/ng-party-logo-red_tiny.png",
+      "large":"assets/images/ng-party-logo-red_large.png"
+    },
+    "copyright":"&copy; ngPartyCz 2016",
+    "links":{
+      "social":{
+        "github": "https://github.com/ngParty",
+        "meetup": "http://www.meetup.com/ngParty",
+        "slack": "https://ngparty.slack.com/",
+        "twitter": "https://twitter.com/ngPartyCz",
+        "google": "https://plus.google.com/communities/112542439741592692861/stream/6a8ebe35-3de1-4736-9d28-712dae5fd286"
+      }
+    }
+  },
+  "main": {
+    "title": "BigParty II.",
+    "subtitle": "Angular 2 is the new Angular",
+    "date": "30th March, Prague",
+    "quickAbout": "A first ever Angular conference in beautiful Prague, focused on getting local community up and ready for Angular 2",
+    "getTicketBtn": "get tickets"
+  },
+  "sections": {
+    "home": {
+      "id":"home",
+      "title": "Home"
+    },
+    "whatToExpect": {
+      "id":"what-to-expect",
+      "title": "What to expect",
+      "content": [
+        "Event focused on Angular 2 promo and related technologies which are under the hood ( Rx, Typescript )",
+        "We wanna spread the message to Czech community, that Angular 2 is the new and shiny super hero, and you shouldn't be afraid to use his powers to create literally anything ( web sites/ web apps/ hybrid apps/ native apps ... )",
+        "We will cover the basics for Angular 2, Typescript, Rx, then continue with some deeper principles, finishing with going outside the web browser to native platform",
+        "Angular 2 is here to stay baby! for a looong time, I even heard that they will use it in a galaxy far, far away..."
+      ]
+    },
+    "speakers": {
+      "id":"speakers",
+      "title": "Speakers",
+      "content": [
+        {
+          "name": "ngParty Team",
+          "job": "Organisers",
+          "picture": "assets/images/ng-party-logo-red_tiny.png",
+          "talk": {
+            "title": "Keynote",
+            "time": "5:00 - 5:10pm",
+            "order": 0,
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at blanditiis dignissimos et, eveniet explicabo fugiat necessitatibus, nulla quos temporibus totam, unde vitae. Accusantium aliquam illo magni minima possimus rerum?"
+            ]
+          }
+        },
+        {
+          "name": "Igor Minar",
+          "job": "Angular team lead at Google",
+          "bio": [
+            "Igor is a software engineer at Google. He is a lead on the Angular project, practitioner of test driven development, open source enthusiast, hacker. In his free time, Igor enjoys spending time with his wife and two kids, doing outdoor activities (including but not limited to sports, gardening and building retaining walls)."
+          ],
+          "picture": "assets/images/speakers/igor-minar.png",
+          "talk": {
+            "title": "Q&A via hangout",
+            "time": "6:00 - 6:30pm",
+            "order": 3,
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at blanditiis dignissimos et, eveniet explicabo fugiat necessitatibus, nulla quos temporibus totam, unde vitae. Accusantium aliquam illo magni minima possimus rerum?"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/IgorMinar",
+            "twitter": "https://twitter.com/IgorMinar"
+          }
+        },
+        {
+          "name": "Martin Hochel",
+          "job": "Software engineer at EmbedIT",
+          "bio": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+          ],
+          "picture": "assets/images/speakers/martin-hochel.jpg",
+          "talk": {
+            "title": "Angular 2 fundamentals",
+            "time": "5:10 - 5:40pm",
+            "order": 1,
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at blanditiis dignissimos et, eveniet explicabo fugiat necessitatibus, nulla quos temporibus totam, unde vitae. Accusantium aliquam illo magni minima possimus rerum?"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/Hotell",
+            "twitter": "https://twitter.com/martin_hotell"
+          }
+        },
+        {
+          "name": "Mario Vejlupek",
+          "job": "Software engineer at EmbedIT",
+          "bio": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+          ],
+          "picture": "assets/images/speakers/mario-vejlupek.jpg",
+          "talk": {
+            "title": "Angular 2 and Devstack",
+            "time": "5:10 - 5:40pm",
+            "order": 5,
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at blanditiis dignissimos et, eveniet explicabo fugiat necessitatibus, nulla quos temporibus totam, unde vitae. Accusantium aliquam illo magni minima possimus rerum?"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/elmariofredo",
+            "twitter": "https://twitter.com/mariovejlupek"
+          }
+        },
+        {
+          "name": "Viliam Elischer",
+          "job": "Software engineer at ngParty",
+          "bio": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+          ],
+          "picture": "assets/images/speakers/viliam-elischer.jpg",
+          "talk": {
+            "title": "RxJs in Action",
+            "time": "7:10 - 7:40pm",
+            "order": 6,
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at blanditiis dignissimos et, eveniet explicabo fugiat necessitatibus, nulla quos temporibus totam, unde vitae. Accusantium aliquam illo magni minima possimus rerum?"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/vire",
+            "twitter": "https://twitter.com/vireliam"
+          }
+        },
+        {
+          "name": "Maxim Salnikov",
+          "job": "UI Engineer at ForgeRock / GDE",
+          "bio": [
+            "Maxim is Oslo-based web UI developer, a Google Developer Expert with strong passion to mobile. He has 10+ years experience in development front-ends for complex web applications. He knows everything about web front-end: starting from user interfaces prototyping, going through HTML/CSS/JS implementation and finishing with architecting RESTful APIs.",
+            "Working daily with web front-end technologies he is happy to experiment with the same stack for building hybrid mobile apps using latest hybrid frameworks. On evenings he runs Norway’s largest meetups dedicated to web front-end: Framsia, AngularJS Oslo. Also he is leader of Norway's biggest community dedicated to mobile development (Mobile Meetup Oslo) and currently working on organizing conference for mobile developers in 2016.",
+            "likes to travel the world visiting developers events and open for offers to share his experiences and knowledge by speaking at conferences and meetups."
+          ],
+          "picture": "assets/images/speakers/maxim-salnikov.png",
+          "talk": {
+            "title": "Future apps with Angular2 and companions: Ionic2 + Firebase",
+            "time": "7:10 - 7:40pm",
+            "order": 4,
+            "description": [
+              "Do you want to look into the future? How will we create web and mobile applications in 2017? Well, it's possible even without inventing time machine. Let's just take alpha/beta-versions of the most promising frameworks, add some magic and cook the app. The reference app for all the developers. Web or mobile - who cares, there will be only fine line between these in nearest future. Sounds ambitious? 100%! But we love ventures and being on cutting edge of web technologies, so let's go for it!"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/webmaxru",
+            "twitter": "https://twitter.com/webmaxru"
+          }
+        },
+        {
+          "name": "Johannes Weber",
+          "job": "UI Engineer at ForgeRock / GDE",
+          "bio": [
+            "Johannes is a passionated developer and adviser in the field of web technologies spotlighted on enterprise JS apps.",
+            "He has spent more than 12 years in front- and backend development and works for Mayflower GmbH (Munich, Germany) where he focuses on the migration of SPA and MPA. In his free time he organizes the AngularJS Munich and ReactJS Munich meetups."
+          ],
+          "picture": "assets/images/speakers/johannes-weber.jpg",
+          "talk": {
+            "title": "Typescript",
+            "time": "5:40 - 6:10pm",
+            "order": 2,
+            "description": [
+              "lorem ipsum asid asd asdas das "
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/johannes-weber",
+            "twitter": "https://twitter.com/jowe"
+          }
+        },
+        {
+          "name": "Sebastian Witalec",
+          "job": "Telerik",
+          "bio": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+          ],
+          "picture": "assets/images/speakers/sebastian-witalec.jpg",
+          "talk": {
+            "title": "Angular 2 + Nativescript",
+            "time": "8:40 - 9:10pm",
+            "order": 7,
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/sebawita",
+            "twitter": "https://twitter.com/sebawita"
+          }
+        },
+        {
+          "name": "Christoffer Noring",
+          "job": "Software engineer",
+          "bio": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+          ],
+          "picture": "assets/images/speakers/christoffer-noring.jpg",
+          "talk": {
+            "title": "Angular Universal",
+            "time": "9:40 - 10:10pm",
+            "order": 8,
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/softchris",
+            "twitter": "https://twitter.com/chris_noring"
+          }
+        }
+      ]
+    },
+    "program": {
+      "id":"program",
+      "title": "Program"
+    },
+    "venue": {
+      "id":"venue",
+      "title": "Venue",
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.5283399442887!2d14.400084816107046!3d50.076394222126964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94fecc6f8d2d%3A0x2068c37eab9b5371!2sImpact+Hub+Praha!5e0!3m2!1sen!2ssk!4v1456218580325"
+    },
+    "sponsors": {
+      "id":"sponsors",
+      "title": "Sponsors",
+      "content":[
+        "ngBigParty would not be possible without the kind support of these companies."
+      ],
+      "footer":[
+        "We are looking for sponsors! Help us make this experience for the attendees even more awesome! - If you're interested,"
+      ],
+      "companies":[
+        {
+          "name": "EmbedIt",
+          "logo": "assets/images/sponsors/embedit.png",
+          "web": "http://embedit.cz"
+        },
+        {
+          "name": "Toptal",
+          "logo": "assets/images/sponsors/toptal.png",
+          "web":"http://toptal.com"
+        }
+      ]
+    },
+    "codeOfConduct": {
+      "id":"code-of-conduct",
+      "title": "Code of Conduct",
+      "content":[
+        "All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody."
+      ]
+    }
+  }
+}
